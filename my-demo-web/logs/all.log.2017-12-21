@@ -1,0 +1,52 @@
+2017-12-21 16:17:19,224  INFO ZhDemoApplication:48 - Starting ZhDemoApplication on Karma-PC with PID 29860 (D:\eclipseCode\springboot\my-manager\my-demo-web\target\classes started by Karma in D:\eclipseCode\springboot\my-manager\my-demo-web)
+2017-12-21 16:17:19,227  INFO ZhDemoApplication:593 - No active profile set, falling back to default profiles: default
+2017-12-21 16:17:19,582  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f7a6f44: startup date [Thu Dec 21 16:17:19 CST 2017]; root of context hierarchy
+2017-12-21 16:17:19,724  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-21 16:17:21,590  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-12-21 16:17:21,743  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 2165 ms
+2017-12-21 16:17:21,955  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-21 16:17:21,959  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-21 16:17:21,960  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-21 16:17:21,960  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-21 16:17:21,961  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-21 16:17:22,847  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f7a6f44: startup date [Thu Dec 21 16:17:19 CST 2017]; root of context hierarchy
+2017-12-21 16:17:22,958  INFO RequestMappingHandlerMapping:543 - Mapped "{[/organ/query]}" onto public java.lang.String com.eshore.sxzc.organ.controller.OrganController.queryOrgan(org.springframework.ui.ModelMap)
+2017-12-21 16:17:22,964  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-21 16:17:22,965  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-21 16:17:23,008  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 16:17:23,010  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 16:17:23,044  INFO ExceptionHandlerExceptionResolver:273 - Detected @ExceptionHandler methods in restExceptionHandler
+2017-12-21 16:17:23,088  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 16:17:24,052  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-12-21 16:17:24,055  INFO AnnotationMBeanExporter:916 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-12-21 16:17:24,062  INFO AnnotationMBeanExporter:671 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-12-21 16:17:24,172  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-12-21 16:17:24,178  INFO ZhDemoApplication:57 - Started ZhDemoApplication in 5.439 seconds (JVM running for 5.8)
+2017-12-21 16:17:32,332  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-21 16:17:32,357  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2017-12-21 16:17:32,432  INFO DruidDataSource:785 - {dataSource-1} inited
+2017-12-21 16:17:32,732  INFO OrganController:28 - 123123123123123213
+2017-12-21 16:17:32,748  INFO TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-12-21 16:17:32,792  INFO AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2017-12-21 16:17:32,793  INFO AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-12-21 16:17:32,793  INFO AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-12-21 16:17:32,793  INFO AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-12-21 16:17:32,798  INFO CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2017-12-21 16:17:32,799  INFO TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED

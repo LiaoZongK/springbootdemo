@@ -1,0 +1,28 @@
+spring:  
+  datasource:  
+    name: mydb  
+    type: com.alibaba.druid.pool.DruidDataSource  
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: zc  
+    password: zhwb  
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    maxActive: 2  
+    initialSize: 1  
+    timeBetweenEvictionRunsMillis: 3000  
+    minEvictableIdleTimeMillis: 300000  
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true  
+    testOnBorrow: false  
+    testOnReturn: false   
+thymeleaf:
+        cache: false
+        prefix: classpath:/templates/
+        suffix: .html
+        mode: LEGACYHTML5
+        encoding: UTF-8   
+        content-type: text/html
+          
+mybatis:   
+  mapperLocations: classpath*:mapper/**/*.xml
+  typeAliasesPackage: com.eshore.**.pojo
+  
